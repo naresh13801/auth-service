@@ -1,1 +1,14 @@
+com\phoenix\auth\security\SecurityConfig.class
+com\phoenix\auth\model\User$UserBuilder.class
+com\phoenix\auth\dto\LoginRequest.class
+com\phoenix\auth\repository\UserRepository.class
+com\phoenix\auth\config\PasswordConfig.class
+com\phoenix\auth\dto\AuthResponse.class
 com\phoenix\auth\AuthServiceApplication.class
+com\phoenix\auth\model\User.class
+com\phoenix\auth\controller\TestController.class
+com\phoenix\auth\security\JwtAuthenticationFilter.class
+com\phoenix\auth\controller\AuthController.class
+com\phoenix\auth\security\JwtUtil.class
+com\phoenix\auth\service\AuthService.class
+com\phoenix\auth\dto\RegisterRequest.class
