@@ -27,6 +27,8 @@ public class AuthController {
         return authService.login(request);
     }
 
+
+    //this endpoint is for testing purposes, it returns the name of the logged-in user
     @GetMapping("/profile")
     public Mono<String> profile(Authentication authentication) {
         return Mono.just("Logged in user: " + authentication.getName());
